@@ -1,0 +1,44 @@
+[
+    {
+        "id": "1f0eb205fb6dafc3",
+        "type": "change",
+        "z": "5321319e788edbca",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload.chatId",
+                "pt": "msg",
+                "to": "chatIDPARADEPOIS",
+                "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "payload.type",
+                "pt": "msg",
+                "to": "typePARADEPOIS",
+                "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "payload.content",
+                "pt": "msg",
+                "to": "payload.output.generic[0].text",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 980,
+        "y": 320,
+        "wires": [
+            [
+                "368edbba2062d248",
+                "c6d4f57dd3e7cf2f"
+            ]
+        ]
+    }
+]
