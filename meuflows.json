@@ -1,0 +1,23 @@
+[
+    {
+        "id": "b0eb7872b95282be",
+        "type": "watson-conversation-v1",
+        "z": "5321319e788edbca",
+        "name": "",
+        "workspaceid": "d4ae17d9-c8c2-46eb-a58a-64e732ff8538",
+        "multiuser": false,
+        "context": true,
+        "empty-payload": false,
+        "service-endpoint": "https://api.au-syd.assistant.watson.cloud.ibm.com/instances/d2cf51b9-d8ee-46d5-a32b-0fe56b2d0625",
+        "timeout": "",
+        "optout-learning": false,
+        "x": 340,
+        "y": 400,
+        "wires": [
+            [
+                "07ea5df374e9398b",
+                "1f0eb205fb6dafc3"
+            ]
+        ]
+    }
+]
